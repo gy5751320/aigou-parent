@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active:
+    - dev
+
+---
+spring:
+  profiles: dev
+  application:
+    name: AIGOU_EMPLOYEE_DEV
+server:
+  port: 6666
+
+---
+
+spring:
+  profiles: test
+  application:
+    name: AIGOU_EMPLOYEE_TEST
+server:
+  port: 5555
+

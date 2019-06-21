@@ -1,0 +1,8 @@
+#优先级最高
+spring:
+  cloud:
+    config:
+      uri: http://localhost:1314 #配置中心服务
+      label: master #分支
+      name: application #github上面名称
+      profile: dev #环境

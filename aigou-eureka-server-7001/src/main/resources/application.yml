@@ -1,0 +1,14 @@
+#设置端口
+server:
+  port: 7001
+eureka:
+  instance:
+    hostname: demo
+  client:
+    fetch-registry: false #是否注册到eureka
+    register-with-eureka: false #是否从服务获取注册信息
+    service-url:
+      defaultZone: http://127.0.0.1:7001/eureka/ #这里是另一个中心的地址
+spring:
+  application:
+    name: AIGOU_EUREKA

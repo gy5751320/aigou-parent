@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/aigou-eureka-server-7001/aigou-eureka-server-7001.iml" filepath="$PROJECT_DIR$/aigou-eureka-server-7001/aigou-eureka-server-7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou-parent.iml" filepath="$PROJECT_DIR$/aigou-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou_basic_parent/aigou_basic_parent.iml" filepath="$PROJECT_DIR$/aigou_basic_parent/aigou_basic_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou_basic_parent/aigou_basic_util/aigou_basic_util.iml" filepath="$PROJECT_DIR$/aigou_basic_parent/aigou_basic_util/aigou_basic_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou_configserver_1314/aigou_configserver_1314.iml" filepath="$PROJECT_DIR$/aigou_configserver_1314/aigou_configserver_1314.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou_plat_parent/aigou_plat_interface/aigou_plat_interface.iml" filepath="$PROJECT_DIR$/aigou_plat_parent/aigou_plat_interface/aigou_plat_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou_plat_parent/aigou_plat_parent.iml" filepath="$PROJECT_DIR$/aigou_plat_parent/aigou_plat_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou_plat_parent/aigou_plat_service_demo_8000/aigou_plat_service_demo_8000.iml" filepath="$PROJECT_DIR$/aigou_plat_parent/aigou_plat_service_demo_8000/aigou_plat_service_demo_8000.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aigou_zuul_parent_9000/aigou_zuul_parent_9000.iml" filepath="$PROJECT_DIR$/aigou_zuul_parent_9000/aigou_zuul_parent_9000.iml" />
+    </modules>
+  </component>
+</project>

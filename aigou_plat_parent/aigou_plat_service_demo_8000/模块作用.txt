@@ -1,0 +1,1 @@
+aigou_plat_service: controller,service,mapper
