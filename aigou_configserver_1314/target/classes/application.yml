@@ -1,6 +1,6 @@
 #设置端口
 server:
-  port: 1314
+  port: 7005
 eureka:
   client:
     service-url:

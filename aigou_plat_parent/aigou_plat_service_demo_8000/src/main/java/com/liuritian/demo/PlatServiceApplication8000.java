@@ -9,6 +9,6 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 public class PlatServiceApplication8000 {
     public static void main(String[] args) {
         //启动sb
-        SpringApplication.run(PlatServiceApplication8000.class);
+        SpringApplication.run(PlatServiceApplication8000.class,args);
     }
 }

@@ -1,8 +1,7 @@
-#优先级最高
 spring:
   cloud:
     config:
-      uri: http://localhost:1314 #配置中心服务
+      uri: http://localhost:7005 #配置服务器
       label: master #分支
-      name: application #github上面名称
+      name: aigou-plat-provider #github上面名称
       profile: dev #环境
