@@ -8,11 +8,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="aigou-eureka-server-7001" />
         <module name="aigou_basic_util" />
+        <module name="aigou_common_interface" />
+        <module name="aigou_common_service" />
         <module name="aigou_configserver_1314" />
+        <module name="aigou_configserver_7005" />
+        <module name="aigou_configserver_8848" />
         <module name="aigou_plat_interface" />
         <module name="aigou_plat_service" />
         <module name="aigou_plat_service_demo_8000" />
+        <module name="aigou_product_interface" />
+        <module name="aigou_product_service" />
         <module name="aigou_zuul_parent_9000" />
+        <module name="public_code_demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,13 +27,24 @@
       <module name="aigou-parent" target="1.8" />
       <module name="aigou_basic_parent" target="1.8" />
       <module name="aigou_basic_util" target="1.8" />
+      <module name="aigou_common_interface" target="1.8" />
+      <module name="aigou_common_parent" target="1.8" />
+      <module name="aigou_common_service" target="1.8" />
+      <module name="aigou_common_servicedemo" target="1.8" />
       <module name="aigou_configserver_1314" target="1.8" />
+      <module name="aigou_configserver_7005" target="1.8" />
+      <module name="aigou_configserver_8848" target="1.8" />
       <module name="aigou_plat_interface" target="1.8" />
       <module name="aigou_plat_parent" target="1.8" />
       <module name="aigou_plat_service" target="1.8" />
       <module name="aigou_plat_service_8000" target="1.8" />
       <module name="aigou_plat_service_demo_8000" target="1.8" />
+      <module name="aigou_product_interface" target="1.8" />
+      <module name="aigou_product_parent_8005" target="1.8" />
+      <module name="aigou_product_service" target="1.8" />
+      <module name="aigou_product_servicetwo" target="1.8" />
       <module name="aigou_zuul_parent_9000" target="1.8" />
+      <module name="public_code_demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -5,11 +5,15 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/aigou_plat_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/aigou_configserver_7005/pom.xml" />
+        <option value="$PROJECT_DIR$/aigou_product_parent_8005/aigou_product_service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/aigou_common_parent/aigou_common_servicedemo/pom.xml" />
         <option value="$PROJECT_DIR$/aigou_plat_parent/aigou_plat_service_8000/pom.xml" />
+        <option value="$PROJECT_DIR$/aigou_product_parent_8005/aigou_product_servicetwo/pom.xml" />
       </set>
     </option>
   </component>

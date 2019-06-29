@@ -11,9 +11,10 @@
     <modules>
         <module>aigou-eureka-server-7001</module>
         <module>aigou_basic_parent</module>
-        <module>aigou_plat_interface</module>
         <module>aigou_zuul_parent_9000</module>
-        <module>aigou_configserver_1314</module>
+        <module>aigou_product_parent_8005</module>
+        <module>public_code_demo</module>
+        <module>aigou_common_parent</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

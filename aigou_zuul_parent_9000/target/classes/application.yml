@@ -11,7 +11,8 @@ spring:
     name: AIGOU_ZUUL
 zuul:
   routes:
-      aigou_plat: /login/** #定义路径名字
+    aigou_plat: /login/**
+    aigou_product: /product/** #此名字要对应产品模块中的service yml的名字
+    common-privoder: /common/**
   ignored-services: "*"
-  prefix: /aigou #设置前缀
-
+  prefix: /aigou

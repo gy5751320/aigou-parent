@@ -9,8 +9,9 @@ public class EmployeeController {
     //RequestBody注解 接收请求参数 post
     @RequestMapping(value = "/login",method = RequestMethod.POST)
     public AjaxResult login(@RequestBody Employee employee){
-        //判断登录用户石峰为null
-        if ("苍老师想你了".equals(employee.getUsernmae()) && "69&11".equals(employee.getPassword())){
+        System.out.println(employee.getUsernmae()+"密码====="+employee.getPassword());
+        //判断登录用户石峰为null  "cnm".equals(employee.getUsernmae()) &&
+        if ( "cnm".equals(employee.getUsernmae()) &&"cx1320".equals(employee.getPassword())){
             //成功
             return AjaxResult.me().setMsg("苍老师来看你了").setObject(null);
         }else {
