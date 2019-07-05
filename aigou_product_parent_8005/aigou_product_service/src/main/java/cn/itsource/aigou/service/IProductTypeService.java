@@ -10,8 +10,6 @@ import java.util.List;
  * 商品目录 服务类
  * </p>
  *
- * @author wbxxx
- * @since 2019-06-23
  */
 public interface IProductTypeService extends IService<ProductType> {
 

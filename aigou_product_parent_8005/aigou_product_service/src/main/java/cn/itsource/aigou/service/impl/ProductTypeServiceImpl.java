@@ -69,7 +69,7 @@ public class ProductTypeServiceImpl extends ServiceImpl<ProductTypeMapper, Produ
         homeMap.put(AigouConstants.PAGE_TEMPLATE_FILE_PATH_NAME,path);
 
         //生成的文件：放到前端的项目中
-        wjPath = "D:\\Software\\IntelliJ IDEA 2017.3.3\\IdeaProjects\\aigou-parent\\aigou_product_parent_8005\\aigou_product_service\\src\\main\\resources\\html\\home.html";
+        wjPath = "D:\\Software\\IntelliJ IDEA 2017.3.3\\IdeaProjects\\aigou_vue_demo\\aigou_ecommerce\\home.html";
         homeMap.put(AigouConstants.PAGE_TARGET_FILE_PATH_NAME,wjPath);
         pageClient.createStaticPage(homeMap);
         return b;
@@ -141,11 +141,8 @@ public class ProductTypeServiceImpl extends ServiceImpl<ProductTypeMapper, Produ
             child.setChildren(sons);
 
         }
-
         return allChildren;
     }
-
-
     private List<ProductType> getAllChildren(long pid) {
         List<ProductType> children = new ArrayList<>();
         Wrapper<ProductType> wrapper =new EntityWrapper<>();

@@ -19,7 +19,13 @@ public class StrUtils {
         }
         return null;
     }
-
+    //拆分
+    public static String[] splitStr2StrArr(String str,String split) {
+        if (str != null && !str.equals("")) {
+            return str.split(split);
+        }
+        return null;
+    }
 
     /**
      * 把逗号分隔字符串转换List的Long
@@ -39,6 +45,7 @@ public class StrUtils {
         return result;
     }
 
+
     public static String getRandomString(int length) {
         String str = "0123456789";
         Random random = new Random();
@@ -49,6 +56,19 @@ public class StrUtils {
         }
         return sb.toString();
 
+    }
+    public static List<Long> splitStr2LongArr(String str,String split) {
+        String[] strings = splitStr2StrArr(str,split);
+        if (strings == null) return null;
+
+        List<Long> result = new ArrayList<>();
+        for (String string : strings) {
+            if(null!=string&&!"".equals(string)){
+                result.add(Long.parseLong(string));
+            }
+        }
+
+        return result;
     }
 
     public static String getComplexRandomString(int length) {

@@ -10,7 +10,7 @@
         <result column="name" property="name" />
         <result column="subName" property="subName" />
         <result column="code" property="code" />
-        <result column="productType" property="productType" />
+        <result column="productTypeId" property="productTypeId" />
         <result column="onSaleTime" property="onSaleTime" />
         <result column="offSaleTime" property="offSaleTime" />
         <result column="brandId" property="brandId" />
@@ -27,9 +27,5 @@
         <result column="badCommentCount" property="badCommentCount" />
     </resultMap>
 
-    <!-- 通用查询结果列 -->
-    <sql id="Base_Column_List">
-        id, createTime, updateTime, name, subName, code, productType, onSaleTime, offSaleTime, brandId, state, maxPrice, minPrice, saleCount, viewCount, commentCount, commentScore, viewProperties, goodCommentCount, commonCommentCount, badCommentCount
-    </sql>
 
 </mapper>

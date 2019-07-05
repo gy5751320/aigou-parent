@@ -42,7 +42,7 @@ public class Product extends Model<Product> {
     /**
      * 商品类型ID
      */
-    private Long productType;
+    private Long productTypeId;
     /**
      * 上架时间
      */
@@ -151,12 +151,12 @@ public class Product extends Model<Product> {
         this.code = code;
     }
 
-    public Long getProductType() {
-        return productType;
+    public Long getProductTypeId() {
+        return productTypeId;
     }
 
-    public void setProductType(Long productType) {
-        this.productType = productType;
+    public void setProductTypeId(Long productTypeId) {
+        this.productTypeId = productTypeId;
     }
 
     public Long getOnSaleTime() {
@@ -304,7 +304,7 @@ public class Product extends Model<Product> {
         ", name=" + name +
         ", subName=" + subName +
         ", code=" + code +
-        ", productType=" + productType +
+        ", productType=" + productTypeId +
         ", onSaleTime=" + onSaleTime +
         ", offSaleTime=" + offSaleTime +
         ", brandId=" + brandId +
